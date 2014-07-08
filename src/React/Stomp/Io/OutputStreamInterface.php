@@ -11,7 +11,7 @@ use React\Stream\StreamInterface;
  * OutputStream is extending ReadableStream and implements OutputStreamInterface
  * that both have the `close` method in common.
  */
-interface OutputStreamInterface extends StreamInterface
+interface OutputStreamInterface extends ReadableStreamInterface
 {
     public function sendFrame(Frame $frame);
 }
