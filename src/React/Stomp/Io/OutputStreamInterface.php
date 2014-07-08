@@ -3,7 +3,7 @@
 namespace React\Stomp\Io;
 
 use React\Stomp\Protocol\Frame;
-use React\Stream\StreamInterface;
+use React\Stream\ReadableStreamInterface;
 
 /**
  * PHP <= 5.3.8 does not support a close method in this interface.
